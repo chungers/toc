@@ -61,7 +61,7 @@ and the most current meetup took place on June 19, 2017 in San Francisco, CA.
 *External Dependencies*
 
 InfraKit is written in Go, and all Go depencies have been vendored into the main repo.  For a complete list of dependencies,
-please see the `[vendor.conf]`(https://github.com/docker/infrakit/blob/master/vendor.conf).
+please see `vendor.conf` at https://github.com/docker/infrakit/blob/master/vendor.conf.
 
 *Statement on alignment with CNCF mission*:
 
@@ -143,9 +143,9 @@ environments.
 
 *Comparison with Digital Rebar*:
 
-Digital Rebar compares similarly to [RackHD](https://rackhd.github.io) or
-[MaaS](https://maas.io).  Currently there is community integration with
-RackHD via a [plugin](https://github.com/codedellemc/infrakit.rackhd), and there is a
+Digital Rebar compares similarly to RackHD (https://rackhd.github.io) or
+MaaS (https://maas.io).  Currently there is community integration with
+RackHD via a plugin (https://github.com/codedellemc/infrakit.rackhd), and there is a
 MaaS plugin in the InfraKit repo.  At a high-level, Digital Rebar and
 InfraKit are complementary in that InfraKit can leverage Digital Rebar for
 bare-metal provisioning via DR’s PXE/DHCP/TFTP infrastructure, while
