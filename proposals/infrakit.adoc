@@ -22,13 +22,13 @@ infrakit is designed to be embedded into a larger system, and can be used by ope
 
 *Initial Committers*:
 
-* David Chung github: chungers
-* Bill Farner github: wfarner
-* David Gageot github: dgageot
-* Steven Kaufer github: kaufers
-* Nicolas Degory github: ndegory
-* Vincent Demeester github: vdemeester
-* Yuji Oshima github: YujiOshima
+* David Chung, github: chungers
+* Bill Farner, github: wfarner
+* David Gageot, github: dgageot
+* Steven Kaufer, github: kaufers
+* Nicolas Degory, github: ndegory
+* Vincent Demeester, github: vdemeester
+* Yuji Oshima, github: YujiOshima
 
 
 *Infrastructure requirements (CI / CNCF Cluster)*: CI, Codecov
@@ -143,9 +143,9 @@ environments.
 
 *Comparison with Digital Rebar*:
 
-Digital Rebar compares similarly to RackHD <https://rackhd.github.io/> or
-MaaS <https://maas.io/>.  Currently there is community integration with
-RackHD <https://github.com/codedellemc/infrakit.rackhd>, and there is a
+Digital Rebar compares similarly to [RackHD](https://rackhd.github.io) or
+[MaaS](https://maas.io).  Currently there is community integration with
+RackHD via a [plugin](https://github.com/codedellemc/infrakit.rackhd), and there is a
 MaaS plugin in the InfraKit repo.  At a high-level, Digital Rebar and
 InfraKit are complementary in that InfraKit can leverage Digital Rebar for
 bare-metal provisioning via DR’s PXE/DHCP/TFTP infrastructure, while
