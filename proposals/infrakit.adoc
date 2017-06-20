@@ -61,7 +61,7 @@ and the most current meetup took place on June 19, 2017 in San Francisco, CA.
 *External Dependencies*
 
 InfraKit is written in Go, and all Go depencies have been vendored into the main repo.  For a complete list of dependencies,
-please see the [`vendor.conf`](https://github.com/docker/infrakit/blob/master/vendor.conf).
+please see the `[vendor.conf]`(https://github.com/docker/infrakit/blob/master/vendor.conf).
 
 *Statement on alignment with CNCF mission*:
 
@@ -80,7 +80,7 @@ even outside of public clouds.  InfraKit also complements Prometheus by enabling
 infrastructure automation based on infrastructure or even application-level metrics.
 
 
-*Comparison with Terraform *
+*Comparison with Terraform*:
 
 Terraform and InfraKit share the features of declarative infrastructure.
 Terraform can provision infrastructure resources and reconcile differences
@@ -115,7 +115,7 @@ infrastructure approach, while Terraform is designed as a tool to automate
 existing ops workflows using a declarative description of infrastructure,
 without the active monitoring and reconciliation approach.
 
-*Comparison with BOSH *
+*Comparison with BOSH*:
 
 BOSH is much more vertically integrated than InfraKit in that it is itself
 a full-fledged distributed application with its own datastore (Postgres)
@@ -141,7 +141,7 @@ common in the public cloud to on-prem bare-metal or virtualized
 environments.
 
 
-*Comparison with Digital Rebar *
+*Comparison with Digital Rebar*:
 
 Digital Rebar compares similarly to RackHD <https://rackhd.github.io/> or
 MaaS <https://maas.io/>.  Currently there is community integration with
