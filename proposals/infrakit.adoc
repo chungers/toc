@@ -5,7 +5,8 @@
 *Description*
 
 InfraKit provides a common, portable workflow for automating management of infrastructure.  As a toolkit, it provides abstractions and primitives for managing infrastructure -- from scaling groups to rolling updates.  It automates management tasks such as scaling of groups of compute instances and rolling updates.  Using a declarative specification of desired infrastructure state, InfraKit actively monitors and ensures that infrastructure state conforms to this specification.  As a result, the underlying infrastructure environment running your container orchestration system and workloads is itself dynamic and resilient.  
-infrakit is designed to be embedded into a larger system, and can be used by operators and administrators.  Infrakit will serve as core infrastructure provisioning layer in the CNCF user stack.
+While InfraKit is designed to be embedded into a larger system, its tooling and interfaces target operators and administrators.
+Infrakit will serve as core infrastructure Provisioning Layer in the [Cloud Native End User Reference Architecture v1.0](https://docs.google.com/presentation/d/1uMw2wkK0ubmc3khxqIuxK_rLK_wN89tNCnK7gDmTGR8/edit#slide=id.g15843037bc_2_6).
 
 *Sponsor / Advisor from TOC*: Solomon Hykes
 
