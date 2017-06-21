@@ -23,11 +23,11 @@ Infrakit will serve as core infrastructure Provisioning Layer in the [Cloud Nati
 *Initial Committers*:
 
 * David Chung, github: chungers
+* Nicolas Degory, github: ndegory
+* Vincent Demeester, github: vdemeester
 * Bill Farner, github: wfarner
 * David Gageot, github: dgageot
 * Steven Kaufer, github: kaufers
-* Nicolas Degory, github: ndegory
-* Vincent Demeester, github: vdemeester
 * Yuji Oshima, github: YujiOshima
 
 *Infrastructure requirements (CI / CNCF Cluster)*: CI, Codecov
@@ -78,8 +78,8 @@ and as a toolkit meant to be embedded into higher order systems such as Kubernet
 and Docker Swarm, InfraKit as a project is enhancing and complementary to other CNCF
 projects.  For example, InfraKit can provide bootstrapping and infrastructure management
 capabilities for Kubernetes and can enhance a Kubernetes cluster as a cluster autoscaler
-even outside of public clouds.  InfraKit also complements Prometheus by enabling
-infrastructure automation based on infrastructure or even application-level metrics.
+even outside of public clouds.  InfraKit also complements Prometheus monitoring
+by enabling automation driven by infrastructure and application metrics.
 
 *Comparison with Terraform*:
 
