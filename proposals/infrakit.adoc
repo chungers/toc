@@ -32,8 +32,7 @@ Infrakit will serve as core infrastructure Provisioning Layer in the [Cloud Nati
 
 *Infrastructure requirements (CI / CNCF Cluster)*: CI, Codecov
 
-Communication channels (slack, irc, mailing lists):
-* Slack: https://dockercommunity.slack.com/messages/C2M1HQ1AA
+*Communication channels (slack, irc, mailing lists)*: Slack: https://dockercommunity.slack.com/messages/C2M1HQ1AA
 
 *Issue tracker*: https://github.com/docker/infrakit/issues
 
