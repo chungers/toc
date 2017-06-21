@@ -4,9 +4,8 @@
 
 *Description*
 
-InfraKit was created to solve this problem by providing a common, portable workflow for automating management of infrastructure.  As a toolkit, it provides abstractions and primitives for managing infrastructure -- from scaling groups to rolling updates.  It automates management tasks such as scaling of groups of compute instances and rolling updates.  Using a declarative specification of desired infrastructure state, InfraKit actively monitors and ensures that infrastructure state conforms to this specification.  As a result, the underlying infrastructure environment running your container orchestration system and workloads is itself dynamic and resilient.  
+InfraKit provides a common, portable workflow for automating management of infrastructure.  As a toolkit, it provides abstractions and primitives for managing infrastructure -- from scaling groups to rolling updates.  It automates management tasks such as scaling of groups of compute instances and rolling updates.  Using a declarative specification of desired infrastructure state, InfraKit actively monitors and ensures that infrastructure state conforms to this specification.  As a result, the underlying infrastructure environment running your container orchestration system and workloads is itself dynamic and resilient.  
 infrakit is designed to be embedded into a larger system, and can be used by operators and administrators.  Infrakit will serve as core infrastructure provisioning layer in the CNCF user stack.
-
 
 *Sponsor / Advisor from TOC*: Solomon Hykes
 
@@ -30,8 +29,10 @@ infrakit is designed to be embedded into a larger system, and can be used by ope
 * Vincent Demeester, github: vdemeester
 * Yuji Oshima, github: YujiOshima
 
-
 *Infrastructure requirements (CI / CNCF Cluster)*: CI, Codecov
+
+Communication channels (slack, irc, mailing lists):
+* Slack: https://dockercommunity.slack.com/messages/C2M1HQ1AA
 
 *Issue tracker*: https://github.com/docker/infrakit/issues
 
@@ -65,20 +66,19 @@ please see `vendor.conf` at https://github.com/docker/infrakit/blob/master/vendo
 
 *Statement on alignment with CNCF mission*:
 
-InfraKit is well-ligned with CNCF goals and mission of promoting the cloud-native
+InfraKit is well-aligned with CNCF goals and mission of promoting the cloud-native
 computing paradigm by providing tooling for infrastructure provisioning and
 integration.  In terms of architecture, InfraKit has the same defining properties
-of a cloud native system: container packaged, micro-services oriented; systems
-built with InfraKit are dynamic, self-healing.
+of a cloud-native system: container packaged, micro-services oriented; systems
+built with InfraKit are dynamic and self-healing.
 
 Further, as the provider of tooling for infrastructure provisioning and integration
-and as a toolkit meant to be embedded into higher order systems such as kubernetes
-and Docker swarm, InfraKit as a project is enhancing and complementary to other CNCF
+and as a toolkit meant to be embedded into higher order systems such as Kubernetes
+and Docker Swarm, InfraKit as a project is enhancing and complementary to other CNCF
 projects.  For example, InfraKit can provide bootstrapping and infrastructure management
 capabilities for Kubernetes and can enhance a Kubernetes cluster as a cluster autoscaler
 even outside of public clouds.  InfraKit also complements Prometheus by enabling
 infrastructure automation based on infrastructure or even application-level metrics.
-
 
 *Comparison with Terraform*:
 
@@ -163,9 +163,3 @@ availability), and infrastructure state is reconstructed by introspecting
 the infrastructure.  This means that InfraKit is more a ‘kit’ then another
 platform and higher-level systems can incorporate InfraKit to provide
 self-managing and self-provisioning capabilities.
-
-
-
-
-
-
